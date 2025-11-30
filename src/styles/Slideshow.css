@@ -1,0 +1,71 @@
+/* Slideshow Section */
+.fleet-section {
+  padding: 40px 150px;
+  text-align: center;
+  background-color: #f8f9fa; /* light background */
+}
+
+.fleet-section h2 {
+  font-size: 28px;
+  color: #1d4ed8;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.fleet-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Swiper Styling */
+.myFleetSwiper {
+  margin-bottom: 20px;
+}
+
+.myFleetSwiper .swiper-slide {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myFleetSwiper .swiper-slide img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  
+}
+
+/* Explore Cars Button */
+.fleet-section .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d4ed8;
+  border: 2px solid #1d4ed8;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.fleet-section .btn:hover {
+  background-color: #1d4ed8;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .myFleetSwiper .swiper-slide {
+    width: 300px;
+    height: 180px;
+  }
+}
